@@ -1,0 +1,127 @@
+#components-layout-demo-custom-trigger .trigger {
+  padding: 0 24px;
+  font-size: 18px;
+  line-height: 64px;
+  cursor: pointer;
+  transition: color 0.3s;
+  
+}
+
+#components-layout-demo-custom-trigger .trigger:hover {
+  color: #1890ff;
+}
+
+#components-layout-demo-custom-trigger .logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+  box-shadow: 0 0 3px #ccc;
+  border-radius: 5px;
+  margin: 10px;
+  overflow: auto;
+}
+
+.ant-layout-has-sider {
+  padding: 5px !important;
+}
+
+.ant-layout.ant-layout-has-sider {
+  height: 100vh;
+}
+
+.ant-layout-sider {
+  border-radius: 10px !important;
+  padding-top: 10px !important;
+}
+
+.anticon svg {
+  height: 20px;
+  width: 20px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.ant-layout-header{
+  line-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cart-item{
+  padding-left: 20px;
+  padding-right: 30px;
+  cursor: pointer;
+}
+
+.cart-item p {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 17px;
+  color: black;
+}
+
+
+@import url('https://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css');
+
+
+form {
+width: 30rem;
+padding: 1rem;
+margin-left: 30%;
+margin-bottom: 20px;
+justify-items: center;
+font-size: 18px;
+}
+
+/* eof Generic styles */
+
+.searchBox-fakeInput {
+background: white;
+border: 1px solid #d6dadc;
+border-radius: 3px;
+display: table;
+}
+
+.searchBox-fakeInput.is-focussed {
+border:2px solid rgb(51, 247, 247) !important;
+}
+.searchBox-inputWrapper,
+.searchBox-clearWrapper {
+width: 100%;
+display: table-cell;
+vertical-align: middle;
+}
+.searchBox-input {
+background-color: transparent;
+border: none;
+box-shadow: none;
+outline: none;
+width: 100%;
+padding: 0.4rem;
+font-size: inherit;
+}
+.searchBox-input:focus {
+outline: none;
+background: #FFF;
+box-shadow: none;
+}
+.searchBox-clearWrapper button {
+border: none;
+padding-right: 0.4rem;
+border: 0.4em solid transparent;
+}
+.searchBox-clearWrapper button:hover {
+color: red;
+}
+.searchBox-inputWrapper input:focus {
+outline: none;
+border-color: #26bf47;
+box-shadow: 0 0 10px #26bf47;
+}
